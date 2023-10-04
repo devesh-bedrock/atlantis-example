@@ -12,3 +12,4 @@ resource "null_resource" "bedrock_security_create_success" {
   }
   depends_on = [module.bedrock_security]
 }
+
